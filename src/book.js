@@ -1,6 +1,6 @@
 
-export default () => {     
+export default (props) => {     
 
-            return <h1>Viatje a la lluna</h1>
+            return <h1>{props.title}</h1>
  }
 
